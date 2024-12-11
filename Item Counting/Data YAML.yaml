@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 28
+names: ['Aqua 600ml', 'Chips Packet', 'Deodorant', 'Drink', 'Indomie Ayam Bawang', 'Indomie Goreng', 'Le Minerale 600ml', 'Mie Sedaap', 'Milo 110ml', 'Potabee', 'Rollon', 'Sabun Lifebuoy', 'Sariwangi Original', 'Shampoo', 'Shower Gel', 'Silverqueen Chunky Bar', 'Sprite', 'Teh Kepala Djenggot', 'Tisu Nice', 'Tisu Paseo', 'Tooth-Paste', 'Toothbrush', 'Toothpaste', 'Ultramilk 250ml', 'Ultramilk Coklat 125ml', 'Ultramilk Strawberry', 'medicine', 'undefined']
+
+roboflow:
+  workspace: flipkart-gqbcl
+  project: object_detection-zto5g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/flipkart-gqbcl/object_detection-zto5g/dataset/1
